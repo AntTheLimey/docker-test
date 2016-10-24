@@ -1,0 +1,22 @@
+default:
+  docset:
+    name: "mapquest"
+    friendly_name: "MapQuest"
+    url: "http://stash.verizon.com/scm/tsdevelop/ts-docs-mapquest.git"
+    available_environments:
+      - "production"
+      - "staging"
+    production:
+      default_version: "v1"
+      branches:
+        -
+          name: "master"
+          releaseDate: ""
+          version: "v1"
+    staging:
+      default_version: "v1"
+      branches:
+        -
+          name: "staging"
+          releaseDate: ""
+          version: "v1"

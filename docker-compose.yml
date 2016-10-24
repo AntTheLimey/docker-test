@@ -1,0 +1,8 @@
+version: '2'
+services:
+    docs:
+        image: localhost:5000/irvui/ts-docs-mapquest:latest
+        environment:
+            PLATFORM_HOST: http://localhost
+            PORT: 3100
+            NODE_ENV: staging
