@@ -1,0 +1,740 @@
+[
+  {
+    "name": "data_manager",
+    "isDirectory": true,
+    "path": "v1/data_manager",
+    "displayName": "Data Manager",
+    "children": [
+      {
+        "name": "custom_permissions",
+        "isDirectory": true,
+        "path": "v1/data_manager/custom_permissions",
+        "displayName": "Custom Permissions",
+        "children": [
+          {
+            "name": "edit-custom-permissions",
+            "isDirectory": true,
+            "path": "v1/data_manager/custom_permissions/edit-custom-permissions",
+            "displayName": "Edit-custom-permissions",
+            "children": [
+              {
+                "name": "post.md",
+                "isDirectory": false,
+                "path": "v1/data_manager/custom_permissions/edit-custom-permissions/post.md",
+                "displayName": "Post"
+              }
+            ]
+          },
+          {
+            "name": "get-custom-permissions",
+            "isDirectory": true,
+            "path": "v1/data_manager/custom_permissions/get-custom-permissions",
+            "displayName": "Get-custom-permissions",
+            "children": [
+              {
+                "name": "post.md",
+                "isDirectory": false,
+                "path": "v1/data_manager/custom_permissions/get-custom-permissions/post.md",
+                "displayName": "Post"
+              }
+            ]
+          },
+          {
+            "name": "grant-custom-permissions",
+            "isDirectory": true,
+            "path": "v1/data_manager/custom_permissions/grant-custom-permissions",
+            "displayName": "Grant-custom-permissions",
+            "children": [
+              {
+                "name": "post.md",
+                "isDirectory": false,
+                "path": "v1/data_manager/custom_permissions/grant-custom-permissions/post.md",
+                "displayName": "Post"
+              }
+            ]
+          },
+          {
+            "name": "revoke-custom-permissions",
+            "isDirectory": true,
+            "path": "v1/data_manager/custom_permissions/revoke-custom-permissions",
+            "displayName": "Revoke-custom-permissions",
+            "children": [
+              {
+                "name": "post.md",
+                "isDirectory": false,
+                "path": "v1/data_manager/custom_permissions/revoke-custom-permissions/post.md",
+                "displayName": "Post"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "managing_data",
+        "isDirectory": true,
+        "path": "v1/data_manager/managing_data",
+        "displayName": "Managing Data",
+        "children": [
+          {
+            "name": "delete-data",
+            "isDirectory": true,
+            "path": "v1/data_manager/managing_data/delete-data",
+            "displayName": "Delete-data",
+            "children": [
+              {
+                "name": "post.md",
+                "isDirectory": false,
+                "path": "v1/data_manager/managing_data/delete-data/post.md",
+                "displayName": "Post"
+              }
+            ]
+          },
+          {
+            "name": "get-table-data",
+            "isDirectory": true,
+            "path": "v1/data_manager/managing_data/get-table-data",
+            "displayName": "Get-table-data",
+            "children": [
+              {
+                "name": "post.md",
+                "isDirectory": false,
+                "path": "v1/data_manager/managing_data/get-table-data/post.md",
+                "displayName": "Post"
+              }
+            ]
+          },
+          {
+            "name": "update-data",
+            "isDirectory": true,
+            "path": "v1/data_manager/managing_data/update-data",
+            "displayName": "Update-data",
+            "children": [
+              {
+                "name": "post.md",
+                "isDirectory": false,
+                "path": "v1/data_manager/managing_data/update-data/post.md",
+                "displayName": "Post"
+              }
+            ]
+          },
+          {
+            "name": "upload-data",
+            "isDirectory": true,
+            "path": "v1/data_manager/managing_data/upload-data",
+            "displayName": "Upload-data",
+            "children": [
+              {
+                "name": "post.md",
+                "isDirectory": false,
+                "path": "v1/data_manager/managing_data/upload-data/post.md",
+                "displayName": "Post"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "managing_tables",
+        "isDirectory": true,
+        "path": "v1/data_manager/managing_tables",
+        "displayName": "Managing Tables",
+        "children": [
+          {
+            "name": "add-columns",
+            "isDirectory": true,
+            "path": "v1/data_manager/managing_tables/add-columns",
+            "displayName": "Add-columns",
+            "children": [
+              {
+                "name": "post.md",
+                "isDirectory": false,
+                "path": "v1/data_manager/managing_tables/add-columns/post.md",
+                "displayName": "Post"
+              }
+            ]
+          },
+          {
+            "name": "copy-table",
+            "isDirectory": true,
+            "path": "v1/data_manager/managing_tables/copy-table",
+            "displayName": "Copy-table",
+            "children": [
+              {
+                "name": "post.md",
+                "isDirectory": false,
+                "path": "v1/data_manager/managing_tables/copy-table/post.md",
+                "displayName": "Post"
+              }
+            ]
+          },
+          {
+            "name": "create-table",
+            "isDirectory": true,
+            "path": "v1/data_manager/managing_tables/create-table",
+            "displayName": "Create-table",
+            "children": [
+              {
+                "name": "post.md",
+                "isDirectory": false,
+                "path": "v1/data_manager/managing_tables/create-table/post.md",
+                "displayName": "Post"
+              }
+            ]
+          },
+          {
+            "name": "drop-columns",
+            "isDirectory": true,
+            "path": "v1/data_manager/managing_tables/drop-columns",
+            "displayName": "Drop-columns",
+            "children": [
+              {
+                "name": "post.md",
+                "isDirectory": false,
+                "path": "v1/data_manager/managing_tables/drop-columns/post.md",
+                "displayName": "Post"
+              }
+            ]
+          },
+          {
+            "name": "drop-table",
+            "isDirectory": true,
+            "path": "v1/data_manager/managing_tables/drop-table",
+            "displayName": "Drop-table",
+            "children": [
+              {
+                "name": "post.md",
+                "isDirectory": false,
+                "path": "v1/data_manager/managing_tables/drop-table/post.md",
+                "displayName": "Post"
+              }
+            ]
+          },
+          {
+            "name": "edit-column-names",
+            "isDirectory": true,
+            "path": "v1/data_manager/managing_tables/edit-column-names",
+            "displayName": "Edit-column-names",
+            "children": [
+              {
+                "name": "post.md",
+                "isDirectory": false,
+                "path": "v1/data_manager/managing_tables/edit-column-names/post.md",
+                "displayName": "Post"
+              }
+            ]
+          },
+          {
+            "name": "edit-table-name",
+            "isDirectory": true,
+            "path": "v1/data_manager/managing_tables/edit-table-name",
+            "displayName": "Edit-table-name",
+            "children": [
+              {
+                "name": "post.md",
+                "isDirectory": false,
+                "path": "v1/data_manager/managing_tables/edit-table-name/post.md",
+                "displayName": "Post"
+              }
+            ]
+          },
+          {
+            "name": "edit-table-permissions",
+            "isDirectory": true,
+            "path": "v1/data_manager/managing_tables/edit-table-permissions",
+            "displayName": "Edit-table-permissions",
+            "children": [
+              {
+                "name": "post.md",
+                "isDirectory": false,
+                "path": "v1/data_manager/managing_tables/edit-table-permissions/post.md",
+                "displayName": "Post"
+              }
+            ]
+          },
+          {
+            "name": "get-column-types",
+            "isDirectory": true,
+            "path": "v1/data_manager/managing_tables/get-column-types",
+            "displayName": "Get-column-types",
+            "children": [
+              {
+                "name": "get.md",
+                "isDirectory": false,
+                "path": "v1/data_manager/managing_tables/get-column-types/get.md",
+                "displayName": "Get"
+              }
+            ]
+          },
+          {
+            "name": "get-table-permissions",
+            "isDirectory": true,
+            "path": "v1/data_manager/managing_tables/get-table-permissions",
+            "displayName": "Get-table-permissions",
+            "children": [
+              {
+                "name": "post.md",
+                "isDirectory": false,
+                "path": "v1/data_manager/managing_tables/get-table-permissions/post.md",
+                "displayName": "Post"
+              }
+            ]
+          },
+          {
+            "name": "get-tables",
+            "isDirectory": true,
+            "path": "v1/data_manager/managing_tables/get-tables",
+            "displayName": "Get-tables",
+            "children": [
+              {
+                "name": "post.md",
+                "isDirectory": false,
+                "path": "v1/data_manager/managing_tables/get-tables/post.md",
+                "displayName": "Post"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "directions",
+    "isDirectory": true,
+    "path": "v1/directions",
+    "displayName": "Directions",
+    "children": [
+      {
+        "name": "alternateroutes",
+        "isDirectory": true,
+        "path": "v1/directions/alternateroutes",
+        "displayName": "Alternateroutes",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/directions/alternateroutes/get.md",
+            "displayName": "Get"
+          },
+          {
+            "name": "post.md",
+            "isDirectory": false,
+            "path": "v1/directions/alternateroutes/post.md",
+            "displayName": "Post"
+          }
+        ]
+      },
+      {
+        "name": "dragroute",
+        "isDirectory": true,
+        "path": "v1/directions/dragroute",
+        "displayName": "Dragroute",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/directions/dragroute/get.md",
+            "displayName": "Get"
+          }
+        ]
+      },
+      {
+        "name": "findlinkid",
+        "isDirectory": true,
+        "path": "v1/directions/findlinkid",
+        "displayName": "Findlinkid",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/directions/findlinkid/get.md",
+            "displayName": "Get"
+          }
+        ]
+      },
+      {
+        "name": "optimizedroute",
+        "isDirectory": true,
+        "path": "v1/directions/optimizedroute",
+        "displayName": "Optimizedroute",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/directions/optimizedroute/get.md",
+            "displayName": "Get"
+          },
+          {
+            "name": "post.md",
+            "isDirectory": false,
+            "path": "v1/directions/optimizedroute/post.md",
+            "displayName": "Post"
+          }
+        ]
+      },
+      {
+        "name": "pathfromroute",
+        "isDirectory": true,
+        "path": "v1/directions/pathfromroute",
+        "displayName": "Pathfromroute",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/directions/pathfromroute/get.md",
+            "displayName": "Get"
+          }
+        ]
+      },
+      {
+        "name": "route",
+        "isDirectory": true,
+        "path": "v1/directions/route",
+        "displayName": "Route",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/directions/route/get.md",
+            "displayName": "Get"
+          },
+          {
+            "name": "post.md",
+            "isDirectory": false,
+            "path": "v1/directions/route/post.md",
+            "displayName": "Post"
+          }
+        ]
+      },
+      {
+        "name": "routematrix",
+        "isDirectory": true,
+        "path": "v1/directions/routematrix",
+        "displayName": "Routematrix",
+        "children": [
+          {
+            "name": "post.md",
+            "isDirectory": false,
+            "path": "v1/directions/routematrix/post.md",
+            "displayName": "Post"
+          }
+        ]
+      },
+      {
+        "name": "routeshape",
+        "isDirectory": true,
+        "path": "v1/directions/routeshape",
+        "displayName": "Routeshape",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/directions/routeshape/get.md",
+            "displayName": "Get"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "geocoding",
+    "isDirectory": true,
+    "path": "v1/geocoding",
+    "displayName": "Geocoding",
+    "children": [
+      {
+        "name": "address",
+        "isDirectory": true,
+        "path": "v1/geocoding/address",
+        "displayName": "Address",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/geocoding/address/get.md",
+            "displayName": "Get"
+          },
+          {
+            "name": "post.md",
+            "isDirectory": false,
+            "path": "v1/geocoding/address/post.md",
+            "displayName": "Post"
+          }
+        ]
+      },
+      {
+        "name": "batch",
+        "isDirectory": true,
+        "path": "v1/geocoding/batch",
+        "displayName": "Batch",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/geocoding/batch/get.md",
+            "displayName": "Get"
+          },
+          {
+            "name": "post.md",
+            "isDirectory": false,
+            "path": "v1/geocoding/batch/post.md",
+            "displayName": "Post"
+          }
+        ]
+      },
+      {
+        "name": "reverse",
+        "isDirectory": true,
+        "path": "v1/geocoding/reverse",
+        "displayName": "Reverse",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/geocoding/reverse/get.md",
+            "displayName": "Get"
+          },
+          {
+            "name": "post.md",
+            "isDirectory": false,
+            "path": "v1/geocoding/reverse/post.md",
+            "displayName": "Post"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "search",
+    "isDirectory": true,
+    "path": "v1/search",
+    "displayName": "Search",
+    "children": [
+      {
+        "name": "corridor",
+        "isDirectory": true,
+        "path": "v1/search/corridor",
+        "displayName": "Corridor",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/search/corridor/get.md",
+            "displayName": "Get"
+          },
+          {
+            "name": "post.md",
+            "isDirectory": false,
+            "path": "v1/search/corridor/post.md",
+            "displayName": "Post"
+          }
+        ]
+      },
+      {
+        "name": "polygon",
+        "isDirectory": true,
+        "path": "v1/search/polygon",
+        "displayName": "Polygon",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/search/polygon/get.md",
+            "displayName": "Get"
+          },
+          {
+            "name": "post.md",
+            "isDirectory": false,
+            "path": "v1/search/polygon/post.md",
+            "displayName": "Post"
+          }
+        ]
+      },
+      {
+        "name": "radius",
+        "isDirectory": true,
+        "path": "v1/search/radius",
+        "displayName": "Radius",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/search/radius/get.md",
+            "displayName": "Get"
+          },
+          {
+            "name": "post.md",
+            "isDirectory": false,
+            "path": "v1/search/radius/post.md",
+            "displayName": "Post"
+          }
+        ]
+      },
+      {
+        "name": "recordinfo",
+        "isDirectory": true,
+        "path": "v1/search/recordinfo",
+        "displayName": "Recordinfo",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/search/recordinfo/get.md",
+            "displayName": "Get"
+          },
+          {
+            "name": "post.md",
+            "isDirectory": false,
+            "path": "v1/search/recordinfo/post.md",
+            "displayName": "Post"
+          }
+        ]
+      },
+      {
+        "name": "rectangle",
+        "isDirectory": true,
+        "path": "v1/search/rectangle",
+        "displayName": "Rectangle",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/search/rectangle/get.md",
+            "displayName": "Get"
+          },
+          {
+            "name": "post.md",
+            "isDirectory": false,
+            "path": "v1/search/rectangle/post.md",
+            "displayName": "Post"
+          }
+        ]
+      },
+      {
+        "name": "search",
+        "isDirectory": true,
+        "path": "v1/search/search",
+        "displayName": "Search",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/search/search/get.md",
+            "displayName": "Get"
+          },
+          {
+            "name": "post.md",
+            "isDirectory": false,
+            "path": "v1/search/search/post.md",
+            "displayName": "Post"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "static_map",
+    "isDirectory": true,
+    "path": "v1/static_map",
+    "displayName": "Static Map",
+    "children": [
+      {
+        "name": "flushicon",
+        "isDirectory": true,
+        "path": "v1/static_map/flushicon",
+        "displayName": "Flushicon",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/static_map/flushicon/get.md",
+            "displayName": "Get"
+          }
+        ]
+      },
+      {
+        "name": "getmap",
+        "isDirectory": true,
+        "path": "v1/static_map/getmap",
+        "displayName": "Getmap",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/static_map/getmap/get.md",
+            "displayName": "Get"
+          }
+        ]
+      },
+      {
+        "name": "getplacemap",
+        "isDirectory": true,
+        "path": "v1/static_map/getplacemap",
+        "displayName": "Getplacemap",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/static_map/getplacemap/get.md",
+            "displayName": "Get"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "traffic",
+    "isDirectory": true,
+    "path": "v1/traffic",
+    "displayName": "Traffic",
+    "children": [
+      {
+        "name": "flow",
+        "isDirectory": true,
+        "path": "v1/traffic/flow",
+        "displayName": "Flow",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/traffic/flow/get.md",
+            "displayName": "Get"
+          }
+        ]
+      },
+      {
+        "name": "incidents",
+        "isDirectory": true,
+        "path": "v1/traffic/incidents",
+        "displayName": "Incidents",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/traffic/incidents/get.md",
+            "displayName": "Get"
+          },
+          {
+            "name": "post.md",
+            "isDirectory": false,
+            "path": "v1/traffic/incidents/post.md",
+            "displayName": "Post"
+          }
+        ]
+      },
+      {
+        "name": "markets",
+        "isDirectory": true,
+        "path": "v1/traffic/markets",
+        "displayName": "Markets",
+        "children": [
+          {
+            "name": "get.md",
+            "isDirectory": false,
+            "path": "v1/traffic/markets/get.md",
+            "displayName": "Get"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+version: '2'
+services:
+    docs-registry:
+        image: registry:2
+        ports:
+            - "5000:5000"
+        environment:
+            REGISTRY_STORAGE: azure
+            REGISTRY_STORAGE_AZURE_ACCOUNTNAME: irvuistorage
+            REGISTRY_STORAGE_AZURE_CONTAINER: tspace-docs-dev
+            REGISTRY_STORAGE_AZURE_ACCOUNTKEY: 18Zdx2xCHXRt1c9HC1uZlJwWTMjfG/rl3Jygl6NLi2iKBPNRyf/knWmmaqWHBro6FKmXVCZByF6d0GE+aLHSLg==

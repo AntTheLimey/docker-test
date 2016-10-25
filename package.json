@@ -4,9 +4,15 @@
     "description": "Thingspace Mapquest Documentation set",
     "main": "index.js",
     "scripts": {
-        "docker:build": "docker build -t localhost:5000/irvui/ts-docs-mapquest:latest .",
-        "docker:start": "docker-compose -f docker-compose.yml -p tspace-docs up -d",
-        "docker:stop": "docker-compose -f docker-compose.yml -p tspace-docs kill && docker-compose -f docker-compose.yml -p tspace-docs rm --force"
+		"docker:cleanup": "docker ps -q -a | xargs docker rm -f && docker images -q | xargs docker rmi",
+		"registry:start": "docker-compose -f registry.yml -p tspace-docs up -d && echo 'Waiting for 10 seconds for registry to be up' && sleep 10  && echo 'registry started, Please check below ...' && docker ps -a",
+		"registry:stop": "docker-compose -f registry.yml -p tspace-docs kill && docker-compose -f registry.yml -p tspace-docs rm --force",
+		"docker:pullDocService": "docker pull localhost:5000/irvui/ts-docs-service:latest",
+		"docker:docServiceUpdate": "npm run docker:cleanup && sleep 10 && npm run registry:start && sleep 10 && npm run docker:pullDocService && sleep 10 && npm run registry:stop",
+		"docker:build": "docker build -t localhost:5000/irvui/ts-docs-mapquest:latest .",
+		"docker:develop":"docker run -v $(pwd)/src:/opt/docservice/docs/mapquest/staging/v1 -p 3100:3100 localhost:5000/irvui/ts-docs-mapquest:latest",
+		"docker:start": "docker-compose -f docker-compose.yml -p tspace-docs up -d",
+		"docker:stop": "docker-compose -f docker-compose.yml -p tspace-docs kill && docker-compose -f docker-compose.yml -p tspace-docs rm --force"
     },
     "author": "Hari Mukkapati",
     "license": "ISC",
